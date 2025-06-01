@@ -10,6 +10,7 @@ import reactor.kafka.receiver.ReceiverOptions;
 
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Pattern;
 
 public class Lec02KafkaConsumer {
     private static final Logger log = LoggerFactory.getLogger(Lec02KafkaConsumer.class);
@@ -23,12 +24,13 @@ public class Lec02KafkaConsumer {
                 ConsumerConfig.GROUP_INSTANCE_ID_CONFIG, "1"
         );
 
+
         var options = ReceiverOptions.create(consumerConfig)
-                .subscription(List.of("order-events"));
+                .subscription(Pattern.compile("order.*"));
 
         KafkaReceiver.create(options)
                 .receive()
-                .doOnNext(r -> log.info("key: {}, value: {}", r.key(), r.value()))
+                .doOnNext(r -> log.info("topic: {}, key: {}, value: {}", r.topic(), r.key(), r.value()))
                 .doOnNext(r -> r.receiverOffset().acknowledge())
                 .subscribe();
 
