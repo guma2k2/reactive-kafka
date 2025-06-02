@@ -1,5 +1,5 @@
 0
-52
+53
 __consumer_offsets 13 0
 __consumer_offsets 46 0
 __consumer_offsets 9 0
@@ -14,7 +14,7 @@ __consumer_offsets 1 0
 __consumer_offsets 34 0
 __consumer_offsets 16 0
 __consumer_offsets 45 0
-__consumer_offsets 12 14
+__consumer_offsets 12 15
 __consumer_offsets 41 0
 __consumer_offsets 24 0
 __consumer_offsets 20 0
@@ -27,7 +27,7 @@ __consumer_offsets 37 0
 __consumer_offsets 4 0
 __consumer_offsets 33 0
 __consumer_offsets 15 0
-__consumer_offsets 48 0
+__consumer_offsets 48 6
 __consumer_offsets 11 0
 __consumer_offsets 44 0
 order-returns 0 3
@@ -37,6 +37,7 @@ __consumer_offsets 32 0
 __consumer_offsets 28 0
 __consumer_offsets 7 0
 __consumer_offsets 40 0
+product-view-events 0 28
 __consumer_offsets 3 0
 __consumer_offsets 36 0
 __consumer_offsets 47 0
