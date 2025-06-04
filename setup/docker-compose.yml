@@ -1,6 +1,6 @@
 version: "3.8"
 services:
-  kafka1:
+  kafka:
     image: vinsdocker/kafka
     container_name: kafka
     ports:

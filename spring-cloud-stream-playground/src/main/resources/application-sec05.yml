@@ -1,14 +1,24 @@
 spring:
   cloud:
     function:
-      definition: producer;consumer
+      definition: orderEventProducer;processor;digitalDelivery;physicalDelivery
     stream:
       bindings:
-        consumer-in-0:
-          destination: input-topic
-          group: some-group
-        producer-out-0:
-          destination: input-topic
+        orderEventProducer-out-0:
+          destination: order-events
+        processor-in-0:
+          destination: order-events
+          group: processor-group
+        digital-delivery-out:
+          destination: digital-topic
+        physical-delivery-out:
+          destination: physical-topic
+        digitalDelivery-in-0:
+          destination: digital-topic
+          group: digital-group
+        physicalDelivery-in-0:
+          destination: physical-topic
+          group: physical-group
       kafka:
         binder:
           producer-properties:
@@ -16,4 +26,3 @@ spring:
           consumer-properties:
             "key.deserializer": org.apache.kafka.common.serialization.StringDeserializer
             "auto.offset.reset": "earliest"
-            "group.instance.id": "1"
