@@ -15,7 +15,7 @@ __consumer_offsets 25 0
 __consumer_offsets 33 0
 digital-topic 0 5
 __consumer_offsets 41 0
-__consumer_offsets 37 2
+__consumer_offsets 37 3
 __consumer_offsets 8 0
 __consumer_offsets 14 0
 __consumer_offsets 24 0
@@ -24,7 +24,7 @@ __consumer_offsets 3 0
 __consumer_offsets 40 0
 __consumer_offsets 27 0
 __consumer_offsets 17 0
-__consumer_offsets 32 2
+__consumer_offsets 32 3
 __consumer_offsets 39 0
 __consumer_offsets 2 0
 __consumer_offsets 44 0
@@ -34,7 +34,7 @@ __consumer_offsets 45 0
 __consumer_offsets 16 0
 __consumer_offsets 10 0
 __consumer_offsets 11 0
-__consumer_offsets 20 3
+__consumer_offsets 20 4
 __consumer_offsets 47 0
 __consumer_offsets 18 0
 __consumer_offsets 7 0
