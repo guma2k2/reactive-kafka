@@ -1,7 +1,7 @@
-package com.vinsguru.processor;
+package com.vinsguru.common.processor;
 
-import com.vinsguru.events.DomainEvent;
-import com.vinsguru.events.inventory.InventoryEvent;
+import com.vinsguru.common.events.DomainEvent;
+import com.vinsguru.common.events.inventory.InventoryEvent;
 import reactor.core.publisher.Mono;
 
 public interface InventoryEventProcessor<R extends DomainEvent> extends EventProcessor<InventoryEvent, R> {

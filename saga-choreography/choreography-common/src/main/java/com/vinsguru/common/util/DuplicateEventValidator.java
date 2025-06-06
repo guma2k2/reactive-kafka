@@ -1,5 +1,5 @@
-package com.vinsguru.util;
-import com.vinsguru.exception.EventAlreadyProcessedException;
+package com.vinsguru.common.util;
+import com.vinsguru.common.exception.EventAlreadyProcessedException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import reactor.core.publisher.Mono;

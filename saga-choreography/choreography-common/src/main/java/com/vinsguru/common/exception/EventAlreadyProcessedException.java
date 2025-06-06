@@ -1,4 +1,4 @@
-package com.vinsguru.exception;
+package com.vinsguru.common.exception;
 
 public class EventAlreadyProcessedException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package com.vinsguru.events.shipping;
+package com.vinsguru.common.events.shipping;
 
 public enum ShippingStatus {
     PENDING,

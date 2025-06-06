@@ -1,4 +1,4 @@
-package com.vinsguru.events.order;
+package com.vinsguru.common.events.order;
 
 public enum OrderStatus {
 

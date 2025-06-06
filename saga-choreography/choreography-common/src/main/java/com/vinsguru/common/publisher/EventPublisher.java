@@ -1,6 +1,6 @@
-package com.vinsguru.publisher;
+package com.vinsguru.common.publisher;
 
-import com.vinsguru.events.DomainEvent;
+import com.vinsguru.common.events.DomainEvent;
 import reactor.core.publisher.Flux;
 
 public interface EventPublisher<T extends DomainEvent> {

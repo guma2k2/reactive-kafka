@@ -1,6 +1,6 @@
-package com.vinsguru.processor;
+package com.vinsguru.common.processor;
 
-import com.vinsguru.events.DomainEvent;
+import com.vinsguru.common.events.DomainEvent;
 import reactor.core.publisher.Mono;
 
 public interface EventProcessor<T extends DomainEvent, R extends DomainEvent> {

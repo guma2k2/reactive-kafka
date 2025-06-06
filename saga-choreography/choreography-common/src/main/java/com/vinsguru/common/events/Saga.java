@@ -1,4 +1,4 @@
-package com.vinsguru.events;
+package com.vinsguru.common.events;
 
 public interface Saga {
 }

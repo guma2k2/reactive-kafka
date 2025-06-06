@@ -1,7 +1,7 @@
-package com.vinsguru.processor;
+package com.vinsguru.common.processor;
 
-import com.vinsguru.events.DomainEvent;
-import com.vinsguru.events.shipping.ShippingEvent;
+import com.vinsguru.common.events.DomainEvent;
+import com.vinsguru.common.events.shipping.ShippingEvent;
 import reactor.core.publisher.Mono;
 
 public interface ShippingEventProcessor<R extends DomainEvent> extends EventProcessor<ShippingEvent, R> {

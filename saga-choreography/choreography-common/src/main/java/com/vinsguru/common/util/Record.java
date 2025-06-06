@@ -1,4 +1,4 @@
-package com.vinsguru.util;
+package com.vinsguru.common.util;
 
 import reactor.kafka.receiver.ReceiverOffset;
 

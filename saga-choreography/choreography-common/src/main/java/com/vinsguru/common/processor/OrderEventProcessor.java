@@ -1,8 +1,7 @@
-package com.vinsguru.processor;
+package com.vinsguru.common.processor;
 
-import com.vinsguru.events.DomainEvent;
-import com.vinsguru.events.inventory.InventoryEvent;
-import com.vinsguru.events.order.OrderEvent;
+import com.vinsguru.common.events.DomainEvent;
+import com.vinsguru.common.events.order.OrderEvent;
 import reactor.core.publisher.Mono;
 
 public interface OrderEventProcessor <R extends DomainEvent> extends EventProcessor<OrderEvent, R> {

@@ -1,4 +1,4 @@
-package com.vinsguru.events;
+package com.vinsguru.common.events;
 
 import java.time.Instant;
 

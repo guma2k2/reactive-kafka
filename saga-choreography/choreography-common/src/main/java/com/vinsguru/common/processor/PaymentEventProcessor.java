@@ -1,7 +1,7 @@
-package com.vinsguru.processor;
+package com.vinsguru.common.processor;
 
-import com.vinsguru.events.DomainEvent;
-import com.vinsguru.events.payment.PaymentEvent;
+import com.vinsguru.common.events.DomainEvent;
+import com.vinsguru.common.events.payment.PaymentEvent;
 import reactor.core.publisher.Mono;
 
 public interface PaymentEventProcessor<R extends DomainEvent> extends EventProcessor<PaymentEvent, R> {

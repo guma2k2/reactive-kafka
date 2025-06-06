@@ -1,4 +1,4 @@
-package com.vinsguru.events.inventory;
+package com.vinsguru.common.events.inventory;
 
 public enum InventoryStatus {
 

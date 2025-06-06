@@ -1,7 +1,7 @@
-package com.vinsguru.events.payment;
+package com.vinsguru.common.events.payment;
 
-import com.vinsguru.events.DomainEvent;
-import com.vinsguru.events.OrderSaga;
+import com.vinsguru.common.events.DomainEvent;
+import com.vinsguru.common.events.OrderSaga;
 import lombok.Builder;
 
 import java.time.Instant;
