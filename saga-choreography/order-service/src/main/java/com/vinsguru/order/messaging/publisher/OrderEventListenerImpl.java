@@ -6,6 +6,7 @@ import com.vinsguru.order.common.dto.PurchaseOrderDto;
 import com.vinsguru.order.common.service.OrderEventListener;
 import com.vinsguru.order.messaging.mapper.OrderEventMapper;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Sinks;
 
