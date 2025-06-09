@@ -36,7 +36,6 @@ public class InventoryServiceImpl implements InventoryService {
     @Override
     @Transactional
     public Mono<OrderInventoryDto> deduct(InventoryDeductRequest request) {
-
         return DuplicateEventValidator.validate(
                 inventoryRepository.existsByOrderId(request.orderId()),
                 productRepository.findById(request.productId())
